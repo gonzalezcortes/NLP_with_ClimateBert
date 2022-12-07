@@ -12,5 +12,5 @@ Work in progress with Abhijna Choodi
 
 
 <p align="center" width="100%">
-    <img width="100%" src="box_plot_1.png">
+    <img width="100%" src="images/box_plot_1.jpg">
 </p>
