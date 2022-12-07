@@ -11,4 +11,6 @@ Work in progress with Abhijna Choodi
 
 
 
-
+<p align="center" width="100%">
+    <img width="35%" src="box_plot_1.png">
+</p>
