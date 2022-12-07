@@ -7,6 +7,7 @@ Work in progress with Abhijna Choodi
   <li>data_01_extraction.ipynb Coded by <b>Abhijna Choodi</b></li>
   <li>data_02_nlp.ipynb Coded by <b>Daniel González Cortés</b></li>
   <li>data_03_results.ipynb Coded by <b>Daniel González Cortés</b></li>
+  <li>data_04_results_paper.ipynb Coded by <b>Daniel González Cortés</b></li>
 </ul>
 
 
