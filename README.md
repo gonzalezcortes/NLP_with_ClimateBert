@@ -13,5 +13,5 @@ Work in progress with Abhijna Choodi
 
 
 <p align="center" width="100%">
-    <img width="100%" src="images/box_plot_2.jpg">
+    <img width="100%" src="images/boxplot_perce_change2.jpg">
 </p>
