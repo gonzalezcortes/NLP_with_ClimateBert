@@ -398,4 +398,4 @@ FodyWeavers.xsd
 *.sln.iml
 
 /.ipynb_checkpoints/
-/analysis/.ipynb_checkpoints/
+/data/
