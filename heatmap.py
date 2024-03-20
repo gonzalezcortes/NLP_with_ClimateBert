@@ -22,6 +22,7 @@ data['rank_2021'] = pd.qcut(data['2021'],5, labels=[0, 1, 2, 3, 4])
 data_s_m = data.drop(columns=['Unnamed: 0','Company','Company_name','FTSE industry','change'])
 
 data_s2 = data_s_m.sort_values(by='Industry cat').reset_index(drop=True)
+data_s2['Industry cat'] = data_s2['Industry cat'].str.title()
 
 
 
@@ -32,12 +33,12 @@ data_melted = data_melted.reset_index(drop=True)
 
 df = pd.DataFrame()
 df['Year'] = np.array(data_melted['Year'])
-df['company'] = np.array(data_melted['Industry cat'])
+df['Industry'] = np.array(data_melted['Industry cat'])
 df['rank'] = np.array(data_melted['Rank'])
 
-heatmap_data = df.drop_duplicates(['company', 'Year']).pivot(index='Year', columns='company', values='rank')
+heatmap_data = df.drop_duplicates(['Industry', 'Year']).pivot(index='Year', columns='Industry', values='rank')
 
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(12, 6))
 ax = sns.heatmap(heatmap_data, annot=True, cmap="YlGnBu", fmt=".2f")
 
 ax.invert_yaxis()
